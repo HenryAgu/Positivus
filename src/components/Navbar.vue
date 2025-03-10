@@ -30,20 +30,20 @@ export default {
 </script>
 
 <template>
-  <header className="flex items-center justify-between  pt-5 xl:pt-14">
+  <header class="flex items-center justify-between  pt-5 xl:pt-14">
     <img
       src="../assets/images/Logo.svg"
       alt="Logo"
-      className="h-[56px] w-[219.54px]"
+      class="h-[56px] w-[219.54px]"
     />
-    <div className="flex items-center flex-row gap-x-10">
-      <ul className="flex flex-row gap-x-10">
+    <div class="flex items-center flex-row gap-x-10">
+      <ul class="flex flex-row gap-x-10">
         <li v-for="item in menu" :key="item.id">
-          <span className="text-black font-normal text-xl"> {{ item.title }} </span>
+          <span class="text-black font-normal text-xl"> {{ item.title }} </span>
         </li>
       </ul>
       <button
-        className="border border-[#191A23] py-3.5 px-[35px] rounded-[14px] text-black text-xl font-weight"
+        class="border border-[#191A23] py-3.5 px-[35px] rounded-[14px] text-black text-xl font-weight"
       >
         Request a quote
       </button>

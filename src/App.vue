@@ -11,9 +11,9 @@ export default {
 </script>
 
 <template>
-  <main className="container mx-auto px-5 xl:px-14">
+  <main class="container mx-auto px-5 2xl:px-14">
     <Navbar />
-    <div className="min-h-screen">1</div>
+    <div class="min-h-screen">1</div>
     <Footer />
   </main>
 </template>
