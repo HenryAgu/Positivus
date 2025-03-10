@@ -57,7 +57,7 @@
               class="border border-white py-5 xl:py-[22px] px-[25px] xl:px-[35px] rounded-[14px] xl:basis-[50%] text-white text-lg outline-transparent"
             />
             <button
-              class="bg-[#B9FF66] w-full rounded-[14px] py-5 xl:py-[22px] px-[25px] xl:px-[35px] text-black text-xl font-normal xl:basis-[50%]"
+              class="bg-[#B9FF66] w-full rounded-[14px] py-5 xl:py-[22px] px-[25px] xl:px-[5px] text-black text-xl font-normal xl:basis-[50%]"
             >
               Subscribe to news
             </button>
