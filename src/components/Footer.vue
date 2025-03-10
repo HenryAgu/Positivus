@@ -1,5 +1,5 @@
 <template>
-  <footer class="bg-[#191A23] p-10 xl:rounded-tl-[45px] xl:rounded-tr-[45px]">
+  <footer class="bg-[#191A23] xl:p-10 xl:rounded-tl-[45px] xl:rounded-tr-[45px]">
     <div>
       <div class="flex flex-col xl:flex-row items-center justify-between">
         <div class="">
@@ -31,7 +31,7 @@
         </div>
       </div>
       <div
-        class="mt-20 flex flex-col xl:flex-row items-center gap-x-20 gap-y-10 border-b border-white pb-10"
+        class="mt-20 flex flex-col xl:flex-row items-center gap-x-20 gap-y-10 border-b border-white pb-10 w-full"
       >
         <div class="flex flex-col items-center xl:items-start xl:text-left text-center gap-y-3 xl:gap-y-5 basis-full xl:basis-[40%]">
           <span
