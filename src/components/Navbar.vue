@@ -30,7 +30,7 @@ export default {
 </script>
 
 <template>
-  <header class="flex items-center justify-between  pt-5 xl:pt-10 2xl:pt-14">
+  <header class="hidden md:flex items-center justify-between  pt-5 xl:pt-10 2xl:pt-14">
     <img
       src="../assets/images/Logo.svg"
       alt="Logo"

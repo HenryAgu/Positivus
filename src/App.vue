@@ -11,7 +11,7 @@ export default {
 </script>
 
 <template>
-  <main class="container mx-auto px-5 xl:px-10 2xl:px-14 bg-white">
+  <main class="container mx-auto px-0 xl:px-10 2xl:px-14 bg-white">
     <Navbar />
     <div class="min-h-screen">1</div>
     <Footer />
