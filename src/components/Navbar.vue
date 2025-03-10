@@ -1,5 +1,10 @@
+<script>
+
+</script>
+
 <template>
-    <header>
-        <h1>Navbar</h1>
-    </header>
+  <header className="flex items-center justify-between">
+    <img src="../assets/images/Logo.svg" alt="Logo" className="h-[56px]"/>
+    <h1>Navbar</h1>
+  </header>
 </template>

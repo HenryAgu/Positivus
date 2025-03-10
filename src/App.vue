@@ -11,7 +11,9 @@ export default {
 </script>
 
 <template>
-  <Navbar/>
-  <h1 className="text-4xl bg-red-800">Hello</h1>
-  <Footer/>
+  <main className="container mx-auto py-5 px-14">
+    <Navbar />
+    <div className="min-h-screen">1</div>
+    <Footer />
+  </main>
 </template>
