@@ -1,6 +1,6 @@
 <template>
-  <footer class="bg-[#191A23] xl:p-10 xl:rounded-tl-[45px] xl:rounded-tr-[45px]">
-    <div>
+  <footer class="bg-[#191A23] py-10 xl:p-10 xl:rounded-tl-[45px] xl:rounded-tr-[45px]">
+    <div class="">
       <div class="flex flex-col xl:flex-row items-center justify-between">
         <div class="">
           <img
