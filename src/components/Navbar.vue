@@ -30,7 +30,7 @@ export default {
 </script>
 
 <template>
-  <header className="flex items-center justify-between">
+  <header className="flex items-center justify-between  pt-5 xl:pt-14">
     <img
       src="../assets/images/Logo.svg"
       alt="Logo"
@@ -43,7 +43,7 @@ export default {
         </li>
       </ul>
       <button
-        className="border border-[#191A23] py-3.5 px-9 rounded-[14px] text-black text-xl font-weight"
+        className="border border-[#191A23] py-3.5 px-[35px] rounded-[14px] text-black text-xl font-weight"
       >
         Request a quote
       </button>
