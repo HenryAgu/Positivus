@@ -37,6 +37,23 @@ export default {
           image: "/images/Zoom.svg",
         },
       ],
+      caseStudies: [
+        {
+          content:
+            "For a local restaurant, we implemented a targeted PPC campaign that resulted in a 50% increase in website traffic and a 25% increase in sales.",
+          path: "",
+        },
+        {
+          content:
+            "For a local restaurant, we implemented a targeted PPC campaign that resulted in a 50% increase in website traffic and a 25% increase in sales.",
+          path: "",
+        },
+        {
+          content:
+            "For a local restaurant, we implemented a targeted PPC campaign that resulted in a 50% increase in website traffic and a 25% increase in sales.",
+          path: "",
+        },
+      ],
     };
   },
 };
@@ -121,11 +138,15 @@ export default {
       <!-- Proposal banner -->
       <section class="relative px-4 xl:px-0">
         <div class="bg-[#F3F3F3] rounded-[45px] my-20 flex">
-          <div class="p-[50px] xl:p-[60px] flex flex-col gap-y-5 basis-full xl:basis-[50%]">
+          <div
+            class="p-[50px] xl:p-[60px] flex flex-col gap-y-5 basis-full xl:basis-[50%]"
+          >
             <h3 class="text-black text-[26px] xl:text-[30px] font-medium">
               Let’s make things happen
             </h3>
-            <p class="text-black font-normal text-base xl:text-lg xl:max-w-[550px] leading-[28px] xl:leading-[30px]">
+            <p
+              class="text-black font-normal text-base xl:text-lg xl:max-w-[550px] leading-[28px] xl:leading-[30px]"
+            >
               Contact us today to learn more about how our digital marketing
               services can help your business grow and succeed online.
             </p>
@@ -136,11 +157,13 @@ export default {
             </button>
           </div>
         </div>
-        <div class="hidden xl:flex justify-end mr-32 -mb-[280px] relative bottom-110">
+        <div
+          class="hidden xl:flex justify-end mr-32 -mb-[280px] relative bottom-110"
+        >
           <img
             src="/images/banner1.png"
             alt="banner"
-            class="w-[359px] h-[394.27px]"
+            class="w-[359px] h-[394.27px] animate-bounce"
           />
         </div>
       </section>
@@ -162,7 +185,66 @@ export default {
             through Our Case Studies
           </p>
         </div>
-        <div class="my-10 xl:my-20 bg-[#191A23] rounded-[45px]">1</div>
+        <div
+          class="my-10 xl:my-20 bg-[#191A23] rounded-[45px] p-10 py-20 hidden xl:grid grid-cols-3"
+        >
+          <div
+            class="border-r border-white px-10 flex flex-col gap-y-5"
+            v-for="(item, index) in caseStudies"
+            :key="index"
+          >
+            <p class="text-white text-lg font-normal">
+              For a local restaurant, we implemented a targeted PPC campaign
+              that resulted in a 50% increase in website traffic and a 25%
+              increase in sales.
+            </p>
+            <a href="" class="flex items-center gap-x-[15px]"
+              ><span class="text-[#B9FF66] text-xl font-normal">Learn more</span
+              ><img src="/images/green-arrow.svg" alt="arrow_icon"
+            /></a>
+          </div>
+        </div>
+        <div class="my-10 flex items-center gap-x-5 overflow-x-auto">
+          <div
+            class="bg-[#191A23] rounded-[45px] px-[50px] py-[42px] flex flex-col gap-y-5 flex-shrink-0 max-w-[350px]"
+          >
+            <p class="text-base text-white font-normal leading-[24px]">
+              For a local restaurant, we implemented a targeted PPC campaign
+              that resulted in a 50% increase in website traffic and a 25%
+              increase in sales.
+            </p>
+            <a href="" class="flex items-center gap-x-[15px]"
+              ><span class="text-[#B9FF66] text-xl font-normal">Learn more</span
+              ><img src="/images/green-arrow.svg" alt="arrow_icon"
+            /></a>
+          </div>
+          <div
+            class="bg-[#191A23] rounded-[45px] px-[50px] py-[42px] flex flex-col gap-y-5 flex-shrink-0 max-w-[350px]"
+          >
+            <p class="text-base text-white font-normal leading-[24px]">
+              For a local restaurant, we implemented a targeted PPC campaign
+              that resulted in a 50% increase in website traffic and a 25%
+              increase in sales.
+            </p>
+            <a href="" class="flex items-center gap-x-[15px]"
+              ><span class="text-[#B9FF66] text-xl font-normal">Learn more</span
+              ><img src="/images/green-arrow.svg" alt="arrow_icon"
+            /></a>
+          </div>
+          <div
+            class="bg-[#191A23] rounded-[45px] px-[50px] py-[42px] flex flex-col gap-y-5 flex-shrink-0 max-w-[350px]"
+          >
+            <p class="text-base text-white font-normal leading-[24px]">
+              For a local restaurant, we implemented a targeted PPC campaign
+              that resulted in a 50% increase in website traffic and a 25%
+              increase in sales.
+            </p>
+            <a href="" class="flex items-center gap-x-[15px]"
+              ><span class="text-[#B9FF66] text-xl font-normal">Learn more</span
+              ><img src="/images/green-arrow.svg" alt="arrow_icon"
+            /></a>
+          </div>
+        </div>
       </section>
     </main>
     <Footer />
