@@ -48,6 +48,16 @@ export default {
             for success
           </h1>
       </section>
+
+      <!-- Brands -->
+      <section class="flex flex-wrap xl:flex-nowrap items-center justify-center gap-x-10 gap-y-2.5 xl:justify-between my-14">
+      <img src="/images/Amazon.svg" alt="brand" class="grayscale h-12">
+      <img src="/images/Dribble.svg" alt="brand" class="grayscale h-12">
+      <img src="/images/Hubspot.svg" alt="brand" class="grayscale h-12">
+      <img src="/images/Notion.svg" alt="brand" class="grayscale h-12">
+      <img src="/images/Netflix.svg" alt="brand" class="grayscale h-12">
+      <img src="/images/Zoom.svg" alt="brand" class="grayscale h-12">
+      </section>
     </main>
     <Footer />
   </main>
