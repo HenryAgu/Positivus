@@ -204,7 +204,7 @@ export default {
             /></a>
           </div>
         </div>
-        <div class="my-10 flex items-center gap-x-5 overflow-x-auto">
+        <div class="my-10 flex items-center gap-x-5 overflow-x-auto case-studies">
           <div
             class="bg-[#191A23] rounded-[45px] px-[50px] py-[42px] flex flex-col gap-y-5 flex-shrink-0 max-w-[350px]"
           >
