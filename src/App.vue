@@ -35,7 +35,7 @@ export default {
             Book a consultation
           </button>
         </div>
-        <div class="basis-full xl:basis-[50%] flex justify-end">
+        <div class="basis-full xl:basis-[50%] flex justify-center xl:justify-end">
           <img
             src="/images/Hero.png"
             alt="hero-image"
