@@ -1,11 +1,13 @@
 <script>
 import Navbar from "@/components/Navbar.vue";
 import Footer from "@/components/Footer.vue";
+import Services from "@/components/Services.vue";
 
 export default {
   components: {
     Navbar,
     Footer,
+    Services,
   },
   data() {
     return {
@@ -98,13 +100,69 @@ export default {
 
       <!-- Services -->
       <section class="my-20 px-4 xl:px-0">
-        <div class="flex flex-col xl:flex-row items-center justify-center xl:justify-start gap-y-8 gap-x-10">
-          <h4 class="bg-[#B9FF66] px-[7px] rounded-[7px] font-medium text-[36px] xl:text-[40px] text-black">Services</h4>
-          <p class="xl:max-w-[580px] text-base xl:text-lg text-black font-normal text-center xl:text-left">
+        <div
+          class="flex flex-col xl:flex-row items-center justify-center xl:justify-start gap-y-8 gap-x-10"
+        >
+          <h4
+            class="bg-[#B9FF66] px-[7px] rounded-[7px] font-medium text-[36px] xl:text-[40px] text-black"
+          >
+            Services
+          </h4>
+          <p
+            class="xl:max-w-[550px] text-base xl:text-lg text-black font-normal text-center xl:text-left"
+          >
             At our digital marketing agency, we offer a range of services to
             help businesses grow and succeed online. These services include:
           </p>
         </div>
+        <Services />
+      </section>
+
+      <!-- Proposal banner -->
+      <section class="relative px-4 xl:px-0">
+        <div class="bg-[#F3F3F3] rounded-[45px] my-20 flex">
+          <div class="p-[50px] xl:p-[60px] flex flex-col gap-y-5 basis-full xl:basis-[50%]">
+            <h3 class="text-black text-[26px] xl:text-[30px] font-medium">
+              Let’s make things happen
+            </h3>
+            <p class="text-black font-normal text-base xl:text-lg xl:max-w-[550px] leading-[28px] xl:leading-[30px]">
+              Contact us today to learn more about how our digital marketing
+              services can help your business grow and succeed online.
+            </p>
+            <button
+              class="w-full xl:w-fit bg-[#191A23] text-lg xl:text-xl text-white py-5 xl:px-[35px] rounded-[14px]"
+            >
+              Get your free proposal
+            </button>
+          </div>
+        </div>
+        <div class="hidden xl:flex justify-end mr-32 -mb-[280px] relative bottom-110">
+          <img
+            src="/images/banner1.png"
+            alt="banner"
+            class="w-[359px] h-[394.27px]"
+          />
+        </div>
+      </section>
+
+      <!-- Case studies -->
+      <section class="px-4 xl:px-0">
+        <div
+          class="flex flex-col xl:flex-row items-center justify-center xl:justify-start gap-y-8 gap-x-10"
+        >
+          <h4
+            class="bg-[#B9FF66] px-[7px] rounded-[7px] font-medium text-[36px] xl:text-[40px] text-black"
+          >
+            Case Studies
+          </h4>
+          <p
+            class="xl:max-w-[550px] text-base xl:text-lg text-black font-normal text-center xl:text-left"
+          >
+            Explore Real-Life Examples of Our Proven Digital Marketing Success
+            through Our Case Studies
+          </p>
+        </div>
+        <div class="my-10 xl:my-20 bg-[#191A23] rounded-[45px]">1</div>
       </section>
     </main>
     <Footer />
