@@ -7,6 +7,36 @@ export default {
     Navbar,
     Footer,
   },
+  data() {
+    return {
+      brands: [
+        {
+          id: crypto.randomUUID(),
+          image: "/images/Amazon.svg",
+        },
+        {
+          id: crypto.randomUUID(),
+          image: "/images/Dribble.svg",
+        },
+        {
+          id: crypto.randomUUID(),
+          image: "/images/Hubspot.svg",
+        },
+        {
+          id: crypto.randomUUID(),
+          image: "/images/Notion.svg",
+        },
+        {
+          id: crypto.randomUUID(),
+          image: "/images/Netflix.svg",
+        },
+        {
+          id: crypto.randomUUID(),
+          image: "/images/Zoom.svg",
+        },
+      ],
+    };
+  },
 };
 </script>
 
@@ -15,9 +45,13 @@ export default {
     <Navbar />
     <main class="min-h-screen">
       <!-- Hero -->
-      <section class="my-5 xl:my-10 flex flex-col-reverse gap-y-5 xl:flex-row justify-between px-4 xl:px-0">
+      <section
+        class="my-5 xl:my-10 flex flex-col-reverse gap-y-5 xl:flex-row justify-between px-4 xl:px-0"
+      >
         <div class="basis-full xl:basis-[50%] flex flex-col gap-y-[35px]">
-          <h1 class="text-black font-medium text-[60px] leading-[70px] hidden xl:block">
+          <h1
+            class="text-black font-medium text-[60px] leading-[70px] hidden xl:block"
+          >
             Navigating the <br />
             digital landscape <br />
             for success
@@ -35,28 +69,31 @@ export default {
             Book a consultation
           </button>
         </div>
-        <div class="basis-full xl:basis-[50%] flex justify-center xl:justify-end">
+        <div
+          class="basis-full xl:basis-[50%] flex justify-center xl:justify-end"
+        >
           <img
             src="/images/Hero.png"
             alt="hero-image"
             class="w-[361.44px] h-[310px] xl:w-[600.46px] xl:h-[515px]"
           />
         </div>
-        <h1 class="text-black font-medium text-[43px] leading-[55px] block xl:hidden">
-            Navigating the <br />
-            digital landscape <br />
-            for success
-          </h1>
+        <h1
+          class="text-black font-medium text-[43px] leading-[55px] block xl:hidden"
+        >
+          Navigating the <br />
+          digital landscape <br />
+          for success
+        </h1>
       </section>
 
       <!-- Brands -->
-      <section class="flex flex-wrap xl:flex-nowrap items-center justify-center gap-x-10 gap-y-2.5 xl:justify-between my-14">
-      <img src="/images/Amazon.svg" alt="brand" class="grayscale h-12">
-      <img src="/images/Dribble.svg" alt="brand" class="grayscale h-12">
-      <img src="/images/Hubspot.svg" alt="brand" class="grayscale h-12">
-      <img src="/images/Notion.svg" alt="brand" class="grayscale h-12">
-      <img src="/images/Netflix.svg" alt="brand" class="grayscale h-12">
-      <img src="/images/Zoom.svg" alt="brand" class="grayscale h-12">
+      <section
+        class="flex flex-wrap xl:flex-nowrap items-center justify-center gap-x-10 gap-y-2.5 xl:justify-between my-14"
+      >
+        <div class="" v-for="item in brands" :key="item.id">
+          <img :src="item.image" alt="brand" class="grayscale h-12" />
+        </div>
       </section>
     </main>
     <Footer />
