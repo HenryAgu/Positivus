@@ -30,13 +30,18 @@ export default {
 </script>
 
 <template>
-  <header class="hidden md:flex items-center justify-between  pt-5 xl:pt-10 2xl:pt-14">
+  <header class="flex items-center justify-between p-4 xl:pt-10 2xl:pt-14">
     <img
       src="../assets/images/Logo.svg"
       alt="Logo"
-      class="h-[56px] w-[219.54px]"
+      class="h-[56px] w-[219.54px] hidden xl:block"
     />
-    <div class="flex items-center flex-row gap-x-10">
+    <img
+      src="../assets/images/Mobile-logo.svg"
+      alt="Logo"
+      class="h-[23.61px] w-[144px] xl:hidden block"
+    />
+    <div class="hidden xl:flex items-center flex-row gap-x-10">
       <ul class="flex flex-row gap-x-10">
         <li v-for="item in menu" :key="item.id">
           <span class="text-black font-normal text-xl"> {{ item.title }} </span>
@@ -46,6 +51,11 @@ export default {
         class="border border-[#191A23] py-3.5 px-[35px] rounded-[14px] text-black text-xl font-weight"
       >
         Request a quote
+      </button>
+    </div>
+    <div class="flex xl:hidden">
+      <button>
+        <img src="../assets/images/menu.svg" alt="Logo" class="w-6 h-4" />
       </button>
     </div>
   </header>
