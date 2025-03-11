@@ -95,6 +95,17 @@ export default {
           <img :src="item.image" alt="brand" class="grayscale h-12" />
         </div>
       </section>
+
+      <!-- Services -->
+      <section class="my-20 px-4 xl:px-0">
+        <div class="flex flex-col xl:flex-row items-center justify-center xl:justify-start gap-y-8 gap-x-10">
+          <h4 class="bg-[#B9FF66] px-[7px] rounded-[7px] font-medium text-[36px] xl:text-[40px] text-black">Services</h4>
+          <p class="xl:max-w-[580px] text-base xl:text-lg text-black font-normal text-center xl:text-left">
+            At our digital marketing agency, we offer a range of services to
+            help businesses grow and succeed online. These services include:
+          </p>
+        </div>
+      </section>
     </main>
     <Footer />
   </main>
