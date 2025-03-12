@@ -2,12 +2,14 @@
 import Navbar from "@/components/Navbar.vue";
 import Footer from "@/components/Footer.vue";
 import Services from "@/components/Services.vue";
+import Faq from "@/components/Faq.vue";
 
 export default {
   components: {
     Navbar,
     Footer,
     Services,
+    Faq,
   },
   data() {
     return {
@@ -185,66 +187,67 @@ export default {
             through Our Case Studies
           </p>
         </div>
+
+        <!-- Desktop -->
         <div
           class="my-10 xl:my-20 bg-[#191A23] rounded-[45px] p-10 py-20 hidden xl:grid grid-cols-3"
         >
           <div
-            class="border-r border-white px-10 flex flex-col gap-y-5"
             v-for="(item, index) in caseStudies"
             :key="index"
+            :class="[
+              'px-10 flex flex-col gap-y-5',
+              index !== caseStudies.length - 1 ? 'border-r border-white' : '',
+            ]"
           >
             <p class="text-white text-lg font-normal">
-              For a local restaurant, we implemented a targeted PPC campaign
-              that resulted in a 50% increase in website traffic and a 25%
-              increase in sales.
+              {{ item.content }}
             </p>
-            <a href="" class="flex items-center gap-x-[15px]"
-              ><span class="text-[#B9FF66] text-xl font-normal">Learn more</span
-              ><img src="/images/green-arrow.svg" alt="arrow_icon"
-            /></a>
+            <a href="" class="flex items-center gap-x-[15px]">
+              <span class="text-[#B9FF66] text-xl font-normal">Learn more</span>
+              <img src="/images/green-arrow.svg" alt="arrow_icon" />
+            </a>
           </div>
         </div>
-        <div class="my-10 flex items-center gap-x-5 overflow-x-auto case-studies">
-          <div
-            class="bg-[#191A23] rounded-[45px] px-[50px] py-[42px] flex flex-col gap-y-5 flex-shrink-0 max-w-[350px]"
-          >
-            <p class="text-base text-white font-normal leading-[24px]">
-              For a local restaurant, we implemented a targeted PPC campaign
-              that resulted in a 50% increase in website traffic and a 25%
-              increase in sales.
-            </p>
-            <a href="" class="flex items-center gap-x-[15px]"
-              ><span class="text-[#B9FF66] text-xl font-normal">Learn more</span
-              ><img src="/images/green-arrow.svg" alt="arrow_icon"
-            /></a>
-          </div>
-          <div
-            class="bg-[#191A23] rounded-[45px] px-[50px] py-[42px] flex flex-col gap-y-5 flex-shrink-0 max-w-[350px]"
-          >
-            <p class="text-base text-white font-normal leading-[24px]">
-              For a local restaurant, we implemented a targeted PPC campaign
-              that resulted in a 50% increase in website traffic and a 25%
-              increase in sales.
-            </p>
-            <a href="" class="flex items-center gap-x-[15px]"
-              ><span class="text-[#B9FF66] text-xl font-normal">Learn more</span
-              ><img src="/images/green-arrow.svg" alt="arrow_icon"
-            /></a>
-          </div>
-          <div
-            class="bg-[#191A23] rounded-[45px] px-[50px] py-[42px] flex flex-col gap-y-5 flex-shrink-0 max-w-[350px]"
-          >
-            <p class="text-base text-white font-normal leading-[24px]">
-              For a local restaurant, we implemented a targeted PPC campaign
-              that resulted in a 50% increase in website traffic and a 25%
-              increase in sales.
-            </p>
-            <a href="" class="flex items-center gap-x-[15px]"
-              ><span class="text-[#B9FF66] text-xl font-normal">Learn more</span
-              ><img src="/images/green-arrow.svg" alt="arrow_icon"
-            /></a>
+
+        <!-- Mobile -->
+        <div
+          class="my-10 flex xl:hidden items-center gap-x-5 overflow-x-auto case-studies"
+        >
+          <div class="flex-shrink-0" v-for="(item, index) in caseStudies" :key="index">
+            <div
+              class="bg-[#191A23] rounded-[45px] px-[50px] py-[42px] flex flex-col gap-y-5 flex-shrink-0 max-w-[350px]"
+            >
+              <p class="text-base text-white font-normal leading-[24px]">
+                {{ item.content }}
+              </p>
+              <a :href="item.path" class="flex items-center gap-x-[15px]"
+                ><span class="text-[#B9FF66] text-xl font-normal"
+                  >Learn more</span
+                ><img src="/images/green-arrow.svg" alt="arrow_icon"
+              /></a>
+            </div>
           </div>
         </div>
+      </section>
+
+      <!-- Working process -->
+      <section class="px-4 xl:px-0">
+        <div
+          class="flex flex-col xl:flex-row items-center justify-center xl:justify-start gap-y-8 gap-x-10"
+        >
+          <h4
+            class="bg-[#B9FF66] px-[7px] rounded-[7px] font-medium text-[36px] xl:text-[40px] text-black"
+          >
+            Our Working Process
+          </h4>
+          <p
+            class="xl:max-w-[292px] text-base xl:text-lg text-black font-normal text-center xl:text-left"
+          >
+            Step-by-Step Guide to Achieving Your Business Goals
+          </p>
+        </div>
+        <Faq />
       </section>
     </main>
     <Footer />
