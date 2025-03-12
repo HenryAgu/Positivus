@@ -3,6 +3,7 @@ import Navbar from "@/components/Navbar.vue";
 import Footer from "@/components/Footer.vue";
 import Services from "@/components/Services.vue";
 import Faq from "@/components/Faq.vue";
+import Team from "@/components/Team.vue";
 
 export default {
   components: {
@@ -10,6 +11,7 @@ export default {
     Footer,
     Services,
     Faq,
+    Team,
   },
   data() {
     return {
@@ -47,12 +49,12 @@ export default {
         },
         {
           content:
-            "For a local restaurant, we implemented a targeted PPC campaign that resulted in a 50% increase in website traffic and a 25% increase in sales.",
+            "For a B2B software company, we developed an SEO strategy that resulted in a first page ranking for key keywords and a 200% increase in organic traffic.",
           path: "",
         },
         {
           content:
-            "For a local restaurant, we implemented a targeted PPC campaign that resulted in a 50% increase in website traffic and a 25% increase in sales.",
+            "For a national retail chain, we created a social media marketing campaign that increased followers by 25% and generated a 20% increase in online sales.",
           path: "",
         },
       ],
@@ -165,7 +167,7 @@ export default {
           <img
             src="/images/banner1.png"
             alt="banner"
-            class="w-[359px] h-[394.27px] animate-bounce"
+            class="w-[359px] h-[394.27px]"
           />
         </div>
       </section>
@@ -214,7 +216,11 @@ export default {
         <div
           class="my-10 flex xl:hidden items-center gap-x-5 overflow-x-auto case-studies"
         >
-          <div class="flex-shrink-0" v-for="(item, index) in caseStudies" :key="index">
+          <div
+            class="flex-shrink-0"
+            v-for="(item, index) in caseStudies"
+            :key="index"
+          >
             <div
               class="bg-[#191A23] rounded-[45px] px-[50px] py-[42px] flex flex-col gap-y-5 flex-shrink-0 max-w-[350px]"
             >
@@ -237,10 +243,22 @@ export default {
           class="flex flex-col xl:flex-row items-center justify-center xl:justify-start gap-y-8 gap-x-10"
         >
           <h4
-            class="bg-[#B9FF66] px-[7px] rounded-[7px] font-medium text-[36px] xl:text-[40px] text-black"
+            class="bg-[#B9FF66] px-[7px] rounded-[7px] font-medium text-[36px] xl:text-[40px] text-black hidden xl:block"
           >
             Our Working Process
           </h4>
+          <div class="flex xl:hidden flex-col items-center">
+            <h4
+              class="bg-[#B9FF66] px-[7px] rounded-[7px] font-medium text-[36px] xl:text-[40px] text-black w-fit"
+            >
+              Our Working
+            </h4>
+            <h4
+              class="bg-[#B9FF66] px-[7px] rounded-[7px] font-medium text-[36px] xl:text-[40px] text-black w-fit"
+            >
+              Process
+            </h4>
+          </div>
           <p
             class="xl:max-w-[292px] text-base xl:text-lg text-black font-normal text-center xl:text-left"
           >
@@ -248,6 +266,26 @@ export default {
           </p>
         </div>
         <Faq />
+      </section>
+
+      <!-- Teams -->
+      <section class="px-4 xl:px-0">
+        <div
+          class="flex flex-col xl:flex-row items-center justify-center xl:justify-start gap-y-8 gap-x-10"
+        >
+          <h4
+            class="bg-[#B9FF66] px-[7px] rounded-[7px] font-medium text-[36px] xl:text-[40px] text-black"
+          >
+            Team
+          </h4>
+          <p
+            class="xl:max-w-[550px] text-base xl:text-lg text-black font-normal text-center xl:text-left"
+          >
+            Meet the skilled and experienced team behind our successful digital
+            marketing strategies
+          </p>
+        </div>
+        <Team/>
       </section>
     </main>
     <Footer />

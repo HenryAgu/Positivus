@@ -92,8 +92,8 @@
           >
         </button>
       </div>
-      <div class="flex xl:hidden items-baseline justify-between">
-        <button class="w-fit flex items-center gap-x-[15px]">
+      <div class="flex items-baseline justify-between">
+        <button class="w-fit flex xl:hidden items-center gap-x-[15px]">
           <img src="/images/Arrow2.svg" alt="arrow_icon" />
         </button>
         <img
@@ -197,7 +197,7 @@
         </button>
       </div>
       <div class="flex items-baseline justify-between">
-        <button class="w-fit flex items-center gap-x-[15px]">
+        <button class="w-fit flex xl:hidden items-center gap-x-[15px]">
           <img src="/images/Arrow2.svg" alt="arrow_icon" />
         </button>
         <img
