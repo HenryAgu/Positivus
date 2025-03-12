@@ -238,7 +238,7 @@ export default {
       </section>
 
       <!-- Working process -->
-      <section class="px-4 xl:px-0">
+      <section class="px-4 xl:px-0 my-20">
         <div
           class="flex flex-col xl:flex-row items-center justify-center xl:justify-start gap-y-8 gap-x-10"
         >
