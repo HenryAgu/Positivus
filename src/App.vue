@@ -4,6 +4,8 @@ import Footer from "@/components/Footer.vue";
 import Services from "@/components/Services.vue";
 import Faq from "@/components/Faq.vue";
 import Team from "@/components/Team.vue";
+import Testimonial from "@/components/Testimonial.vue";
+import ContactUs from "@/components/ContactUs.vue";
 
 export default {
   components: {
@@ -12,6 +14,8 @@ export default {
     Services,
     Faq,
     Team,
+    Testimonial,
+    ContactUs,
   },
   data() {
     return {
@@ -64,7 +68,7 @@ export default {
 </script>
 
 <template>
-  <main class="container w-full mx-auto px-0 xl:px-10 2xl:px-14 bg-white">
+  <main class="container w-full mx-auto px-0 xl:px-10 2xl:px-14 bg-white overflow-x-hidden">
     <Navbar />
     <main class="min-h-screen">
       <!-- Hero -->
@@ -269,7 +273,7 @@ export default {
       </section>
 
       <!-- Teams -->
-      <section class="px-4 xl:px-0">
+      <section class="px-4 xl:px-0 mb-10">
         <div
           class="flex flex-col xl:flex-row items-center justify-center xl:justify-start gap-y-8 gap-x-10"
         >
@@ -287,6 +291,12 @@ export default {
         </div>
         <Team/>
       </section>
+
+      <!-- Testimonial -->
+      <Testimonial/>
+
+      <!-- Contact Us -->
+      <ContactUs/>
     </main>
     <Footer />
   </main>
