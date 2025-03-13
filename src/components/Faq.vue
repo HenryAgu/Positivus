@@ -55,7 +55,7 @@ export default {
           </div>
         </div>
         <div class="border-t border-black pt-5">
-          <p class="text-lg text-black font-normal">{{ faq.content }}</p>
+          <p class="text-lg text-black font-normal max-w-[203px] lg:max-w-full">{{ faq.content }}</p>
         </div>
       </div>
     </div>
