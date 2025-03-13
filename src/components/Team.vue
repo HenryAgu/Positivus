@@ -53,10 +53,10 @@ export default {
 
 <template>
   <div class="flex flex-col gap-y-10 mb-10">
-    <div class="mt-14 grid grid-cols-1 xl:grid-cols-3 gap-10">
+    <div class="mt-14 grid grid-cols-1 lg:grid-cols-3 lg:gap-5 xl:gap-10">
       <div class="" v-for="(item, index) in teams" :key="index">
         <div
-          class="border border-[#191A23] border-b-[#191A23] rounded-[45px] shadow-[0px_5px_0px_0px_#191A23] py-10 px-[35px] xl:min-h-[350px]"
+          class="border border-[#191A23] border-b-[#191A23] rounded-[45px] shadow-[0px_5px_0px_0px_#191A23] py-10 px-[35px] lg:min-h-[350px]"
         >
           <div class="border-b border-black pb-5 flex gap-x-5">
             <img
@@ -84,9 +84,9 @@ export default {
         </div>
       </div>
     </div>
-    <div class="flex xl:justify-end">
+    <div class="flex lg:justify-end">
       <button
-        class="text-white text-xl font-normal bg-[#191A23] py-5 px-[35px] rounded-[14px] w-full xl:w-fit"
+        class="text-white text-xl font-normal bg-[#191A23] py-5 px-[35px] rounded-[14px] w-full lg:w-fit"
       >
         See all team
       </button>

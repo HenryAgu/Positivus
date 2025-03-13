@@ -1,7 +1,7 @@
 <template>
-  <section class="px-4 xl:px-0 flex flex-col">
+  <section class="px-4 lg:px-10 xl:px-0 flex flex-col">
     <div
-      class="flex flex-col xl:flex-row items-center justify-center xl:justify-start gap-y-8 gap-x-10"
+      class="flex flex-col lg:flex-row items-center justify-center lg:justify-start gap-y-8 gap-x-10"
     >
       <h4
         class="bg-[#B9FF66] px-[7px] rounded-[7px] font-medium text-[36px] xl:text-[40px] text-black"
@@ -9,18 +9,18 @@
         Contact Us
       </h4>
       <p
-        class="xl:max-w-[323px] text-base xl:text-lg text-black font-normal text-center xl:text-left"
+        class="lg:max-w-[323px] text-base xl:text-lg text-black font-normal text-center lg:text-left"
       >
         Connect with Us: Let's Discuss Your Digital Marketing Needs
       </p>
     </div>
     <div
-      class="xl:my-20 mb-5 mt-10 bg-[#F3F3F3] rounded-[45px] py-10 px-5 xl:py-[60px] xl:pl-[100px] flex flex-col xl:flex-row gap-x-20 justify-between"
+      class="lg:my-20 mb-5 mt-10 bg-[#F3F3F3] rounded-[45px] py-10 px-5 lg:pl-[80px] xl:py-[60px] xl:pl-[100px] flex flex-col lg:flex-row xl:gap-x-20 justify-between"
     >
-      <div class="basis-full xl:basis-[50%] flex flex-col">
-        <form action="" class="xl:mb-10 flex flex-col gap-y-5 xl:gap-y-10">
-          <div class="flex items-center justify-center xl:justify-start gap-x-10">
-            <div class="flex items-center gap-x-[15px] xl:gap-x-5">
+      <div class="basis-full lg:basis-[50%] flex flex-col">
+        <form action="" class="lg:mb-10 flex flex-col gap-y-5 lg:gap-y-10">
+          <div class="flex items-center justify-center lg:justify-start gap-x-10">
+            <div class="flex items-center gap-x-[15px] lg:gap-x-5">
               <input
                 type="radio"
                 name="contact-option"
@@ -69,24 +69,24 @@
             />
           </div>
           <button
-            class="text-white bg-[#191A23] text-xl py-5 px-[35px] rounded-[14px] xl:flex hidden"
+            class="text-white bg-[#191A23] text-xl py-5 px-[35px] justify-center rounded-[14px] lg:flex hidden"
           >
             Send Message
           </button>
         </form>
       </div>
       <div
-        class="basis-full xl:basis-[50%] hidden xl:flex justify-end text-end"
+        class="basis-full lg:basis-[50%] hidden lg:flex justify-end text-end"
       >
         <img
           src="/images/contact-image.svg"
           alt="image"
-          class="relative xl:left-60 2xl:left-65 w-[691.57px] h-[648px]"
+          class="relative lg:left-50 xl:left-60 2xl:left-65 w-[691.57px] h-[648px] lg:h-full lg:w-full"
         />
       </div>
     </div>
     <button
-      class="text-white bg-[#191A23] py-5 px-[35px] rounded-[14px] text-xl block xl:hidden mb-20"
+      class="text-white bg-[#191A23] py-5 px-[35px] rounded-[14px] text-xl block lg:hidden mb-20"
     >
       Send Message
     </button>

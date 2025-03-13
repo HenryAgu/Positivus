@@ -73,11 +73,11 @@ export default {
     <main class="min-h-screen">
       <!-- Hero -->
       <section
-        class="my-5 xl:my-10 flex flex-col-reverse gap-y-5 xl:flex-row justify-between px-4 xl:px-0"
+        class="my-5 lg:my-10 flex flex-col-reverse gap-y-5 lg:flex-row justify-between px-4 lg:px-10 xl:px-0"
       >
-        <div class="basis-full xl:basis-[50%] flex flex-col gap-y-[35px]">
+        <div class="basis-full lg:basis-[50%] flex flex-col gap-y-[35px]">
           <h1
-            class="text-black font-medium text-[60px] leading-[70px] hidden xl:block"
+            class="text-black font-medium text-[60px] leading-[70px] hidden lg:block"
           >
             Navigating the <br />
             digital landscape <br />
@@ -97,7 +97,7 @@ export default {
           </button>
         </div>
         <div
-          class="basis-full xl:basis-[50%] flex justify-center xl:justify-end"
+          class="basis-full lg:basis-[50%] flex justify-center xl:justify-end"
         >
           <img
             src="/images/Hero.png"
@@ -106,7 +106,7 @@ export default {
           />
         </div>
         <h1
-          class="text-black font-medium text-[43px] leading-[55px] block xl:hidden"
+          class="text-black font-medium text-[43px] leading-[55px] block lg:hidden"
         >
           Navigating the <br />
           digital landscape <br />
@@ -124,9 +124,9 @@ export default {
       </section>
 
       <!-- Services -->
-      <section class="my-20 px-4 xl:px-0">
+      <section class="my-20 px-4 lg:px-10 xl:px-0">
         <div
-          class="flex flex-col xl:flex-row items-center justify-center xl:justify-start gap-y-8 gap-x-10"
+          class="flex flex-col lg:flex-row items-center justify-center lg:justify-start gap-y-8 gap-x-10"
         >
           <h4
             class="bg-[#B9FF66] px-[7px] rounded-[7px] font-medium text-[36px] xl:text-[40px] text-black"
@@ -134,7 +134,7 @@ export default {
             Services
           </h4>
           <p
-            class="xl:max-w-[550px] text-base xl:text-lg text-black font-normal text-center xl:text-left"
+            class="xl:max-w-[550px] text-base lg:text-lg text-black font-normal text-center lg:text-left"
           >
             At our digital marketing agency, we offer a range of services to
             help businesses grow and succeed online. These services include:
@@ -147,7 +147,7 @@ export default {
       <section class="relative px-4 xl:px-0">
         <div class="bg-[#F3F3F3] rounded-[45px] my-20 flex">
           <div
-            class="p-[50px] xl:p-[60px] flex flex-col gap-y-5 basis-full xl:basis-[50%]"
+            class="p-[50px] xl:p-[60px] flex flex-col gap-y-5 basis-full lg:basis-[50%]"
           >
             <h3 class="text-black text-[26px] xl:text-[30px] font-medium">
               Let’s make things happen
@@ -166,7 +166,7 @@ export default {
           </div>
         </div>
         <div
-          class="hidden xl:flex justify-end mr-32 -mb-[280px] relative bottom-110"
+          class="hidden lg:flex justify-end lg:mr-[50px] xl:mr-32 lg:-mb-[350px] relative bottom-110"
         >
           <img
             src="/images/banner1.png"
@@ -177,9 +177,9 @@ export default {
       </section>
 
       <!-- Case studies -->
-      <section class="px-4 xl:px-0">
+      <section class="px-4 lg:px-10 xl:px-0">
         <div
-          class="flex flex-col xl:flex-row items-center justify-center xl:justify-start gap-y-8 gap-x-10"
+          class="flex flex-col lg:flex-row items-center justify-center lg:justify-start gap-y-8 lg:gap-x-5 xl:gap-x-10"
         >
           <h4
             class="bg-[#B9FF66] px-[7px] rounded-[7px] font-medium text-[36px] xl:text-[40px] text-black"
@@ -187,7 +187,7 @@ export default {
             Case Studies
           </h4>
           <p
-            class="xl:max-w-[550px] text-base xl:text-lg text-black font-normal text-center xl:text-left"
+            class="lg:max-w-[550px] text-base xl:text-lg text-black font-normal text-center lg:text-left"
           >
             Explore Real-Life Examples of Our Proven Digital Marketing Success
             through Our Case Studies
@@ -196,7 +196,7 @@ export default {
 
         <!-- Desktop -->
         <div
-          class="my-10 xl:my-20 bg-[#191A23] rounded-[45px] p-10 py-20 hidden xl:grid grid-cols-3"
+          class="my-10 lg:my-20 bg-[#191A23] rounded-[45px] xl:p-10 lg:p-5 lg:py-10 xl:py-20 hidden lg:grid grid-cols-3"
         >
           <div
             v-for="(item, index) in caseStudies"
@@ -218,7 +218,7 @@ export default {
 
         <!-- Mobile -->
         <div
-          class="my-10 flex xl:hidden items-center gap-x-5 overflow-x-auto case-studies"
+          class="my-10 flex lg:hidden items-center gap-x-5 overflow-x-auto case-studies"
         >
           <div
             class="flex-shrink-0"
@@ -242,16 +242,16 @@ export default {
       </section>
 
       <!-- Working process -->
-      <section class="px-4 xl:px-0 my-10">
+      <section class="px-4 lg:px-10 xl:px-0 my-10">
         <div
-          class="flex flex-col xl:flex-row items-center justify-center xl:justify-start gap-y-8 gap-x-10"
+          class="flex flex-col lg:flex-row items-center justify-center lg:justify-start gap-y-8 gap-x-10"
         >
           <h4
-            class="bg-[#B9FF66] px-[7px] rounded-[7px] font-medium text-[36px] xl:text-[40px] text-black hidden xl:block"
+            class="bg-[#B9FF66] px-[7px] rounded-[7px] font-medium text-[36px] xl:text-[40px] text-black hidden lg:block"
           >
             Our Working Process
           </h4>
-          <div class="flex xl:hidden flex-col items-center">
+          <div class="flex lg:hidden flex-col items-center">
             <h4
               class="bg-[#B9FF66] px-[7px] rounded-[7px] font-medium text-[36px] xl:text-[40px] text-black w-fit"
             >
@@ -264,7 +264,7 @@ export default {
             </h4>
           </div>
           <p
-            class="xl:max-w-[292px] text-base xl:text-lg text-black font-normal text-center xl:text-left"
+            class="lg:max-w-[292px] text-base xl:text-lg text-black font-normal text-center lg:text-left"
           >
             Step-by-Step Guide to Achieving Your Business Goals
           </p>
@@ -273,9 +273,9 @@ export default {
       </section>
 
       <!-- Teams -->
-      <section class="px-4 xl:px-0 mb-10">
+      <section class="px-4 lg:px-10 xl:px-0 mb-10">
         <div
-          class="flex flex-col xl:flex-row items-center justify-center xl:justify-start gap-y-8 gap-x-10"
+          class="flex flex-col lg:flex-row items-center justify-center lg:justify-start gap-y-8 gap-x-10"
         >
           <h4
             class="bg-[#B9FF66] px-[7px] rounded-[7px] font-medium text-[36px] xl:text-[40px] text-black"
@@ -283,7 +283,7 @@ export default {
             Team
           </h4>
           <p
-            class="xl:max-w-[550px] text-base xl:text-lg text-black font-normal text-center xl:text-left"
+            class="lg:max-w-[550px] text-base xl:text-lg text-black font-normal text-center lg:text-left"
           >
             Meet the skilled and experienced team behind our successful digital
             marketing strategies

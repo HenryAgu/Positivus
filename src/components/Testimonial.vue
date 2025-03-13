@@ -28,9 +28,9 @@ export default {
 </script>
 
 <template>
-  <section class="px-4 xl:px-0">
+  <section class="px-4 lg:px-10 xl:px-0">
     <div
-      class="flex flex-col xl:flex-row items-center justify-center xl:justify-start gap-y-8 gap-x-10"
+      class="flex flex-col lg:flex-row items-center justify-center xl:justify-start gap-y-8 gap-x-10"
     >
       <h4
         class="bg-[#B9FF66] px-[7px] rounded-[7px] font-medium text-[36px] xl:text-[40px] text-black"
@@ -38,18 +38,18 @@ export default {
         Testimonials
       </h4>
       <p
-        class="xl:max-w-[550px] text-base xl:text-lg text-black font-normal text-center xl:text-left"
+        class="xl:max-w-[550px] text-base xl:text-lg text-black font-normal text-center lg:text-left"
       >
         Hear from Our Satisfied Clients: Read Our Testimonials to Learn More
         about Our Digital Marketing Services
       </p>
     </div>
-    <div class="my-20 bg-[#191A23] px-5 xl:px-10 py-5 xl:py-20 pb-20 xl:pb-40 rounded-[45px]">
+    <div class="my-20 bg-[#191A23] px-5 lg:px-10 py-5 lg:py-20 pb-20 xl:pb-40 rounded-[45px]">
       <div class="overflow-x-auto flex gap-x-10 case-studies">
         <div class="flex flex-shrink-0" v-for="(item, index) in testimonials" :key="index">
           <div class="flex flex-col gap-y-5">
             <div
-              class="border border-[#B9FF66] rounded-[45px] p-5 xl:p-10 max-w-[330px] xl:max-w-[606px] flex-shrink-0"
+              class="border border-[#B9FF66] rounded-[45px] p-5 lg:p-10 max-w-[330px] lg:max-w-[606px] flex-shrink-0"
             >
               <p class="text-base xl:text-lg font-normal text-white">
                 "We have been working with Positivus for the past year and have

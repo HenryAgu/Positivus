@@ -30,7 +30,7 @@ export default {
 </script>
 
 <template>
-  <header class="flex items-center justify-between px-4 py-6 xl:pt-10 2xl:pt-14">
+  <header class="flex items-center justify-between px-4 lg:px-8 xl:px-0 py-6 xl:pt-10 2xl:pt-14">
     <img
       src="../assets/images/Logo.svg"
       alt="Logo"
@@ -41,8 +41,8 @@ export default {
       alt="Logo"
       class="h-[23.61px] w-[144px] xl:hidden block"
     />
-    <div class="hidden xl:flex items-center flex-row gap-x-10">
-      <ul class="flex flex-row gap-x-10">
+    <div class="hidden lg:flex items-center flex-row lg:gap-x-5 xl:gap-x-10">
+      <ul class="flex flex-row lg:gap-x-5 xl:gap-x-10">
         <li v-for="item in menu" :key="item.id">
           <span class="text-black font-normal text-xl"> {{ item.title }} </span>
         </li>
@@ -53,7 +53,7 @@ export default {
         Request a quote
       </button>
     </div>
-    <div class="flex xl:hidden">
+    <div class="flex lg:hidden">
       <button>
         <img src="../assets/images/menu.svg" alt="Logo" class="w-6 h-4" />
       </button>
