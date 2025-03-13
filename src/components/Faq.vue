@@ -48,14 +48,14 @@ export default {
         <div class="flex items-center justify-between pb-5 lg:pb-0">
           <div class="flex items-center gap-x-3 lg:gap-x-[25px]">
             <h2 class="text-black text-[30px] lg:text-[60px] font-medium">0{{ index + 1 }}</h2>
-            <p class="text-lg lg:text-[30px] text-black font-medium">{{ faq.title }}</p>
+            <p class="text-lg lg:text-[30px] text-black font-medium max-w-[203px] lg:max-w-full">{{ faq.title }}</p>
           </div>
           <div class="">
             <button><img src="/images/Plus-circle.svg" alt="icon" class="h-[30px] w-[30px] lg:w-[58px] lg:h-[58px]"/></button>
           </div>
         </div>
         <div class="border-t border-black pt-5">
-          <p class="text-lg text-black font-normal max-w-[203px] lg:max-w-full">{{ faq.content }}</p>
+          <p class="text-lg text-black font-normal">{{ faq.content }}</p>
         </div>
       </div>
     </div>
