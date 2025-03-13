@@ -53,7 +53,7 @@ export default {
 
 <template>
   <div class="flex flex-col gap-y-10 mb-10">
-    <div class="mt-14 grid grid-cols-1 lg:grid-cols-3 lg:gap-5 xl:gap-10">
+    <div class="mt-14 grid grid-cols-1 lg:grid-cols-3 gap-5 xl:gap-10">
       <div class="" v-for="(item, index) in teams" :key="index">
         <div
           class="border border-[#191A23] border-b-[#191A23] rounded-[45px] shadow-[0px_5px_0px_0px_#191A23] py-10 px-[35px] lg:min-h-[350px]"
