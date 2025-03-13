@@ -58,7 +58,7 @@ export default {
         :class="`border-[#191A23] border p-[30px] lg:p-10 rounded-[45px] shadow-[0px_5px_0px_0px_#191A23]`"
         :style="{ backgroundColor: faq.isActive ? '#B9FF66' : '#F3F3F3' }"
       >
-        <div class="flex items-center justify-between pb-5 lg:pb-0">
+        <div class="flex items-center justify-between">
           <div class="flex items-center gap-x-3 lg:gap-x-[25px]">
             <h2 class="text-black text-[30px] lg:text-[60px] font-medium">
               0{{ index + 1 }}
@@ -83,7 +83,7 @@ export default {
             </button>
           </div>
         </div>
-        <div :class="faq.isActive ? 'border-t border-black pt-5': 'hidden'">
+        <div :class="faq.isActive ? 'border-t border-black py-5 lg:pb-0': 'hidden'">
           <p class="text-lg text-black font-normal">{{ faq.content }}</p>
         </div>
       </div>
