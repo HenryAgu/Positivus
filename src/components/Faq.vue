@@ -40,7 +40,7 @@ export default {
 </script>
 
 <template>
-  <section class="my-20 flex flex-col gap-y-5">
+  <section class="my-14 flex flex-col gap-y-5">
     <div class="" v-for="(faq, index) in faqs" :key="index">
       <div
         class="border-[#191A23] border bg-[#F3F3F3] p-[30px] lg:p-10 rounded-[45px] shadow-[0px_5px_0px_0px_#191A23]"
