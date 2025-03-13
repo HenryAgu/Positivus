@@ -25,8 +25,10 @@ npm install
 npm run dev
 
 ## Screenshots
-![image](https://github.com/user-attachments/assets/c8dfba92-ecfc-4eea-b900-7c67771fce63)
-![image](https://github.com/user-attachments/assets/9f1d9b20-891d-48de-8669-ffb701a7f261
+![Screenshot 2025-03-13 164230](https://github.com/user-attachments/assets/f1c8431b-9539-4ce9-b79c-2b8addf27832)
+![Screenshot 2025-03-13 164221](https://github.com/user-attachments/assets/cae8f496-f871-48e8-9170-49b998053fd5)
+
+
 
 ## Features
 - Responsive design
