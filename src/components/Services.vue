@@ -1,5 +1,5 @@
 <template>
-  <div class="my-20 grid grid-col-1 lg:grid-cols-2 gap-10">
+  <div class="my-20 grid grid-col-1 md:grid-cols-2 gap-10">
     <div
       class="flex xl:flex-row flex-col justify-between border border-[#191A23] min-h-[310px] p-10 bg-[#F3F3F3] border-b-[#191A23] rounded-[45px] shadow-[0px_5px_0px_0px_#191A23]"
     >

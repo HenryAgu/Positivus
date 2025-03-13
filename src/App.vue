@@ -73,11 +73,11 @@ export default {
     <main class="min-h-screen">
       <!-- Hero -->
       <section
-        class="my-5 lg:my-10 flex flex-col-reverse gap-y-5 lg:flex-row justify-between px-4 lg:px-10 xl:px-0"
+        class="my-5 lg:my-10 flex flex-col-reverse gap-y-5 md:flex-row justify-between px-4 lg:px-10 xl:px-0"
       >
         <div class="basis-full lg:basis-[50%] flex flex-col gap-y-[35px]">
           <h1
-            class="text-black font-medium text-[60px] leading-[70px] hidden lg:block"
+            class="text-black font-medium text-[43px] lg:text-[60px] leading-[50px] lg:leading-[70px] hidden md:block"
           >
             Navigating the <br />
             digital landscape <br />
@@ -97,16 +97,16 @@ export default {
           </button>
         </div>
         <div
-          class="basis-full lg:basis-[50%] flex justify-center xl:justify-end"
+          class="basis-full lg:basis-[50%] flex justify-center md:justify-start xl:justify-end"
         >
           <img
             src="/images/Hero.png"
             alt="hero-image"
-            class="w-[361.44px] h-[310px] xl:w-[600.46px] xl:h-[515px]"
+            class="w-[361.44px] h-[310px] lg:w-[600.46px] lg:h-[515px]"
           />
         </div>
         <h1
-          class="text-black font-medium text-[43px] leading-[55px] block lg:hidden"
+          class="text-black font-medium text-[43px] leading-[55px] block md:hidden"
         >
           Navigating the <br />
           digital landscape <br />

@@ -1,4 +1,6 @@
 <script>
+import { Transition } from 'vue';
+
 export default {
   data() {
     return {
@@ -83,9 +85,20 @@ export default {
             </button>
           </div>
         </div>
-        <div :class="faq.isActive ? 'border-t border-black py-5 lg:pb-0': 'hidden'">
-          <p class="text-lg text-black font-normal">{{ faq.content }}</p>
-        </div>
+        <Transition
+          name="faq"
+          mode="out-in"
+          enter-active-class="transition-all duration-200 ease-out"
+          leave-active-class="transition-all duration-250 ease-in"
+          enter-from-class="opacity-0 max-h-0"
+          enter-to-class="opacity-100 max-h-[500px]"
+          leave-from-class="opacity-100 max-h-[500px]"
+          leave-to-class="opacity-0 max-h-0"
+        >
+          <div v-if="faq.isActive" class="border-t border-black pt-5">
+            <p class="text-lg text-black font-normal">{{ faq.content }}</p>
+          </div>
+        </Transition>
       </div>
     </div>
   </section>
