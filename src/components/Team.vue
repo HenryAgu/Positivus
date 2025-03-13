@@ -53,25 +53,31 @@ export default {
 
 <template>
   <div class="flex flex-col gap-y-10 mb-10">
-    <div class="mt-14 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-5 xl:gap-10">
+    <div
+      class="mt-14 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-5 xl:gap-10"
+    >
       <div class="" v-for="(item, index) in teams" :key="index">
         <div
           class="border border-[#191A23] border-b-[#191A23] rounded-[45px] shadow-[0px_5px_0px_0px_#191A23] py-10 px-[35px] lg:min-h-[350px]"
         >
-          <div class="border-b border-black pb-5 flex gap-x-5">
+          <div class="border-b border-black pb-5 flex justify-between gap-x-5">
             <img
               :src="item.image"
               alt="team_image"
               class="w-[105.65px] h-[102.82px]"
             />
-            <div class="flex flex-col justify-between items-end">
-              <img
-                src="/images/green-linkedin.svg"
-                alt="linkedin_icon"
-                class="w-[34px] h-[34px]"
-              />
+            <div class="flex flex-col justify-between">
+              <div class="flex items-end justify-end">
+                <img
+                  src="/images/green-linkedin.svg"
+                  alt="linkedin_icon"
+                  class="w-[34px] h-[34px]"
+                />
+              </div>
               <div class="flex flex-col">
-                <h3 class="text-lg xl:text-xl font-medium text-black">{{ item.name }}</h3>
+                <h3 class="text-lg xl:text-xl font-medium text-black">
+                  {{ item.name }}
+                </h3>
                 <p class="font-normal text-base xl:text-lg text-black">
                   {{ item.position }}
                 </p>
@@ -79,7 +85,9 @@ export default {
             </div>
           </div>
           <div class="pt-5">
-            <p class="text-base xl:text-lg font-normal text-black">{{ item.content }}</p>
+            <p class="text-base xl:text-lg font-normal text-black">
+              {{ item.content }}
+            </p>
           </div>
         </div>
       </div>

@@ -59,7 +59,7 @@ export default {
         </li>
       </ul>
       <button
-        class="border border-[#191A23] py-3.5 px-[35px] rounded-[14px] text-black text-xl font-weight"
+        class="border border-[#191A23] bg-white hover:bg-[#B9FF66] duration-200 ease-in-out transition cursor-pointer py-3.5 px-[35px] rounded-[14px] text-black text-xl font-weight"
       >
         Request a quote
       </button>

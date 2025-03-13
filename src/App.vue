@@ -91,7 +91,7 @@ export default {
             marketing, and content creation.
           </p>
           <button
-            class="w-full xl:w-fit bg-[#191A23] rounded-[14px] text-white font-normal text-xl py-5 px-[35px]"
+            class="w-full xl:w-fit bg-[#191A23] border-[#191A23] border hover:bg-white duration-200 ease-in-out transition cursor-pointer rounded-[14px] hover:text-black text-white font-normal text-xl py-5 px-[35px]"
           >
             Book a consultation
           </button>
@@ -158,11 +158,11 @@ export default {
               Contact us today to learn more about how our digital marketing
               services can help your business grow and succeed online.
             </p>
-            <button
-              class="w-full xl:w-fit bg-[#191A23] text-lg xl:text-xl text-white py-5 xl:px-[35px] rounded-[14px]"
+            <a href=""
+              class="w-full xl:w-fit bg-[#191A23] text-lg xl:text-xl text-white cursor-pointer py-5 xl:px-[35px] rounded-[14px]"
             >
               Get your free proposal
-            </button>
+            </a>
           </div>
         </div>
         <div
@@ -209,7 +209,7 @@ export default {
             <p class="text-white text-lg font-normal">
               {{ item.content }}
             </p>
-            <a href="" class="flex items-center gap-x-[15px]">
+            <a href="" class="flex items-center gap-x-[15px] hover:underline text-[#B9FF66]">
               <span class="text-[#B9FF66] text-xl font-normal">Learn more</span>
               <img src="/images/green-arrow.svg" alt="arrow_icon" />
             </a>
