@@ -159,7 +159,7 @@ export default {
               services can help your business grow and succeed online.
             </p>
             <a href=""
-              class="w-full xl:w-fit bg-[#191A23] text-lg xl:text-xl text-white cursor-pointer py-5 xl:px-[35px] rounded-[14px]"
+              class="w-full xl:w-fit bg-[#191A23] text-lg xl:text-xl text-center text-white cursor-pointer py-5 xl:px-[35px] rounded-[14px]"
             >
               Get your free proposal
             </a>
