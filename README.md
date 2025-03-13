@@ -1,29 +1,42 @@
-# Positivus
+# Vue Landing Page
 
-This template should help get you started developing with Vue 3 in Vite.
+🚀 **Live Demo:** [View Here](https://positivus-nine-sand.vercel.app/)
 
-## Recommended IDE Setup
+## 📌 Project Overview
+This is a responsive landing page built using **Vue 3**, inspired by a Figma design. The project showcases clean UI components, smooth interactions, and an optimized development setup with **Vite**.
 
-[VSCode](https://code.visualstudio.com/) + [Volar](https://marketplace.visualstudio.com/items?itemName=Vue.volar) (and disable Vetur).
+## 🛠 Tech Stack
+- **Vue 3** – Component-based architecture
+- **Vite** – Fast build tool
+- **TailwindCSS** – Utility-first CSS framework
 
-## Customize configuration
+## 🔧 Installation & Setup
+Follow these steps to run the project locally:
 
-See [Vite Configuration Reference](https://vite.dev/config/).
+1. **Clone the repository:**
+   ```sh
+   git clone https://github.com/your-username/vue-landing-page.git
+   cd vue-landing-page
 
-## Project Setup
-
-```sh
+## Install dependencies:
 npm install
-```
 
-### Compile and Hot-Reload for Development
-
-```sh
+## Run the development server
 npm run dev
-```
 
-### Compile and Minify for Production
+## Screenshots
+![image](https://github.com/user-attachments/assets/c8dfba92-ecfc-4eea-b900-7c67771fce63)
+![image](https://github.com/user-attachments/assets/9f1d9b20-891d-48de-8669-ffb701a7f261
 
-```sh
-npm run build
-```
+## Features
+- Responsive design
+- Smooth animations
+- Optimized performance with Vite
+- Modular and reusable Vue components
+
+
+## 🚀 Deployment
+This project is deployed on Vercel. To deploy your own version:
+- Push your code to GitHub.
+- Link your repository to Vercel.
+- Deploy with a single click!
