@@ -242,7 +242,7 @@ export default {
       </section>
 
       <!-- Working process -->
-      <section class="px-4 lg:px-10 xl:px-0 my-10">
+      <section class="px-4 lg:px-10 xl:px-0 my-20">
         <div
           class="flex flex-col lg:flex-row items-center justify-center lg:justify-start gap-y-8 gap-x-10"
         >
@@ -273,7 +273,7 @@ export default {
       </section>
 
       <!-- Teams -->
-      <section class="px-4 lg:px-10 xl:px-0 mb-10">
+      <section class="px-4 lg:px-10 xl:px-0 mb-20">
         <div
           class="flex flex-col lg:flex-row items-center justify-center lg:justify-start gap-y-8 gap-x-10"
         >
