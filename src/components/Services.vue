@@ -17,18 +17,18 @@
           </h3>
         </div>
         <button class="w-fit hidden xl:flex items-center gap-x-[15px]">
-          <img src="/images/Arrow1.svg" alt="arrow_icon" />
+          <img src="/images/Arrow1.svg" alt="arrow_icon"  class="aspect-square"/>
           <span class="font-normal text-lg text-black">Learn more</span>
         </button>
       </div>
       <div class="flex justify-between items-baseline">
         <button class="w-fit flex xl:hidden items-center gap-x-[15px]">
-          <img src="/images/Arrow1.svg" alt="arrow_icon" />
+          <img src="/images/Arrow1.svg" alt="arrow_icon" class="aspect-square"/>
         </button>
         <img
           src="/images/service1.svg"
           alt="srvice"
-          class="w-[165px] h-[129px] xl:w-[210px] xl:h-[170px] xl:xl:mt-10"
+          class="w-[165px] h-[129px] xl:w-[210px] xl:h-[170px] xl:xl:mt-10 aspect-[165/129] xl:aspect-[210/170]"
         />
       </div>
     </div>
@@ -49,7 +49,7 @@
           </h3>
         </div>
         <button class="w-fit hidden xl:flex items-center gap-x-[15px]">
-          <img src="/images/Arrow1.svg" alt="arrow_icon" />
+          <img src="/images/Arrow1.svg" alt="arrow_icon" class="aspect-square"/>
           <span class="font-normal text-lg text-black hidden xl:block"
             >Learn more</span
           >
@@ -57,7 +57,7 @@
       </div>
       <div class="flex items-baseline justify-between">
         <button class="w-fit flex xl:hidden items-center gap-x-[15px]">
-          <img src="/images/Arrow1.svg" alt="arrow_icon" />
+          <img src="/images/Arrow1.svg" alt="arrow_icon" class="aspect-square"/>
           <span class="font-normal text-lg text-black hidden xl:block"
             >Learn more</span
           >
@@ -65,7 +65,7 @@
         <img
           src="/images/service2.svg"
           alt="srvice"
-          class="w-[165px] xl:w-[210px] h-[116.47px] xl:h-[170px] xl:mt-10"
+          class="w-[165px] xl:w-[210px] h-[116.47px] xl:h-[170px] xl:mt-10 aspect-[165/116] xl:aspect-[210/170]"
         />
       </div>
     </div>
@@ -86,7 +86,7 @@
           </h3>
         </div>
         <button class="w-fit hidden xl:flex items-center gap-x-[15px]">
-          <img src="/images/Arrow2.svg" alt="arrow_icon" />
+          <img src="/images/Arrow2.svg" alt="arrow_icon" class="aspect-square"/>
           <span class="font-normal text-lg text-white hidden xl:block"
             >Learn more</span
           >
@@ -94,12 +94,12 @@
       </div>
       <div class="flex items-baseline justify-between">
         <button class="w-fit flex xl:hidden items-center gap-x-[15px]">
-          <img src="/images/Arrow2.svg" alt="arrow_icon" />
+          <img src="/images/Arrow2.svg" alt="arrow_icon" class="aspect-square"/>
         </button>
         <img
           src="/images/service3.svg"
           alt="srvice"
-          class="w-[165px] xl:w-[210px] h-[116.47px] xl:h-[170px] xl:mt-10"
+          class="w-[165px] xl:w-[210px] h-[116.47px] xl:h-[170px] xl:mt-10 aspect-[165/116] xl:aspect-[210/170]"
         />
       </div>
     </div>
@@ -122,7 +122,7 @@
         <button
           class="w-fit hidden xl:flex items-center justify-between gap-x-[15px]"
         >
-          <img src="/images/Arrow1.svg" alt="arrow_icon" />
+          <img src="/images/Arrow1.svg" alt="arrow_icon" class="aspect-square"/>
           <span class="font-normal text-lg text-black hidden xl:block"
             >Learn more</span
           >
@@ -130,12 +130,12 @@
       </div>
       <div class="flex items-baseline justify-between">
         <button class="w-fit flex xl:hidden items-center justify-between gap-x-[15px]">
-          <img src="/images/Arrow1.svg" alt="arrow_icon" />
+          <img src="/images/Arrow1.svg" alt="arrow_icon" class="aspect-square"/>
         </button>
         <img
           src="/images/service4.svg"
           alt="srvice"
-          class="w-[155px] xl:w-[210px] h-[142px] xl:h-[170px] xl:mt-10"
+          class="w-[155px] xl:w-[210px] h-[142px] xl:h-[170px] xl:mt-10 aspect-[155/142] xl:aspect-[210/170]"
         />
       </div>
     </div>
@@ -156,7 +156,7 @@
           </h3>
         </div>
         <button class="w-fit hidden xl:flex items-center gap-x-[15px]">
-          <img src="/images/Arrow1.svg" alt="arrow_icon" />
+          <img src="/images/Arrow1.svg" alt="arrow_icon" class="aspect-square"/>
           <span class="font-normal text-lg text-black hidden xl:block"
             >Learn more</span
           >
@@ -164,12 +164,12 @@
       </div>
       <div class="flex items-baseline justify-between">
         <button class="w-fit flex xl:hidden items-center gap-x-[15px]">
-          <img src="/images/Arrow1.svg" alt="arrow_icon" />
+          <img src="/images/Arrow1.svg" alt="arrow_icon" class="aspect-square"/>
         </button>
         <img
           src="/images/service5.svg"
           alt="srvice"
-          class="w-[139px] xl:w-[210px] h-[116.47px] xl:h-[129px] xl:mt-10"
+          class="w-[139px] xl:w-[210px] h-[116.47px] xl:h-[129px] xl:mt-10 aspect-[139/116] xl:aspect-[210/129]"
         />
       </div>
     </div>
@@ -190,7 +190,7 @@
           </h3>
         </div>
         <button class="w-fit hidden xl:flex items-center gap-x-[15px]">
-          <img src="/images/Arrow2.svg" alt="arrow_icon" />
+          <img src="/images/Arrow2.svg" alt="arrow_icon" class="aspect-square"/>
           <span class="font-normal text-lg text-white hidden xl:block"
             >Learn more</span
           >
@@ -198,12 +198,12 @@
       </div>
       <div class="flex items-baseline justify-between">
         <button class="w-fit flex xl:hidden items-center gap-x-[15px]">
-          <img src="/images/Arrow2.svg" alt="arrow_icon" />
+          <img src="/images/Arrow2.svg" alt="arrow_icon" class="aspect-square"/>
         </button>
         <img
           src="/images/service6.svg"
           alt="srvice"
-          class="w-[158px] xl:w-[210px] h-[129px] xl:h-[170px] xl:mt-10"
+          class="w-[158px] xl:w-[210px] h-[129px] xl:h-[170px] xl:mt-10 aspect-[158/129] xl:aspect-[210/170]"
         />
       </div>
     </div>

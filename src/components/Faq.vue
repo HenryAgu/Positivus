@@ -59,6 +59,7 @@ export default {
       <div
         :class="`border-[#191A23] border p-[30px] lg:p-10 rounded-[45px] shadow-[0px_5px_0px_0px_#191A23]`"
         :style="{ backgroundColor: faq.isActive ? '#B9FF66' : '#F3F3F3' }"
+        @click="toggleFaq(index)"
       >
         <div class="flex items-center justify-between">
           <div class="flex items-center gap-x-3 lg:gap-x-[25px]">
@@ -72,7 +73,7 @@ export default {
             </p>
           </div>
           <div class="">
-            <button @click="toggleFaq(index)">
+            <button>
               <img
                 :src="
                   faq.isActive
@@ -80,7 +81,7 @@ export default {
                     : '/images/Plus-circle.svg'
                 "
                 alt="icon"
-                class="h-[30px] w-[30px] lg:w-[58px] lg:h-[58px] cursor-pointer"
+                class="h-[30px] w-[30px] lg:w-[58px] lg:h-[58px] aspect-square cursor-pointer"
               />
             </button>
           </div>

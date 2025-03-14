@@ -102,7 +102,7 @@ export default {
           <img
             src="/images/Hero.png"
             alt="hero-image"
-            class="w-[361.44px] h-[310px] lg:w-[600.46px] lg:h-[515px]"
+            class="w-[361.44px] h-[310px] lg:w-[600.46px] lg:h-[515px] lg:aspect-[600.5/515] aspect-[361/310]"
           />
         </div>
         <h1
@@ -171,7 +171,7 @@ export default {
           <img
             src="/images/banner1.png"
             alt="banner"
-            class="w-[359px] h-[394.27px]"
+            class="w-[359px] h-[394.27px] aspect-[359/394]"
           />
         </div>
       </section>
@@ -211,7 +211,7 @@ export default {
             </p>
             <a href="" class="flex items-center gap-x-[15px] hover:underline text-[#B9FF66]">
               <span class="text-[#B9FF66] text-xl font-normal">Learn more</span>
-              <img src="/images/green-arrow.svg" alt="arrow_icon" />
+              <img src="/images/green-arrow.svg" alt="arrow_icon" class="aspect-square"/>
             </a>
           </div>
         </div>

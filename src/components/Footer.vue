@@ -6,7 +6,7 @@
           <img
             src="../assets/images/Logo-white.svg"
             alt="Logo"
-            class="h-[23.01px] w-[139.89px]"
+            class="h-[23.01px] w-[139.89px] aspect-[140/23]"
           />
         </div>
         <div class="flex items-center flex-row gap-x-10 mt-10 lg:mt-0">
@@ -25,7 +25,7 @@
             <img
               :src="item.image"
               alt="social-media-icon"
-              class="w-[30px] h-[30px]"
+              class="w-[30px] h-[30px] aspect-square"
             />
           </div>
         </div>

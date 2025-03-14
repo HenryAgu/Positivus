@@ -64,14 +64,14 @@ export default {
             <img
               :src="item.image"
               alt="team_image"
-              class="w-[105.65px] h-[102.82px]"
+              class="w-[105.65px] h-[102.82px] aspect-[106/103]"
             />
             <div class="flex flex-col justify-between">
               <div class="flex items-end justify-end">
                 <img
                   src="/images/green-linkedin.svg"
                   alt="linkedin_icon"
-                  class="w-[34px] h-[34px]"
+                  class="w-[34px] h-[34px] aspect-square"
                 />
               </div>
               <div class="flex flex-col">

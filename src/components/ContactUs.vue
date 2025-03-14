@@ -81,7 +81,7 @@
         <img
           src="/images/contact-image.svg"
           alt="image"
-          class="relative lg:left-50 xl:left-60 2xl:left-65 w-[691.57px] h-[648px] lg:h-full lg:w-full"
+          class="relative lg:left-50 xl:left-60 2xl:left-65 w-[691.57px] h-[648px] lg:h-full lg:w-full aspect-[691.6/648]"
         />
       </div>
     </div>
