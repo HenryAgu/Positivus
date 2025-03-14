@@ -44,12 +44,12 @@ export default {
         about Our Digital Marketing Services
       </p>
     </div>
-    <div class="my-20 bg-[#191A23] px-10 md:px-10 py-10 md:py-20 pb-20 xl:pb-40 rounded-[45px]">
+    <div class="my-20 bg-[#191A23] p-5 md:px-10 md:py-20 pb-10 xl:pb-40 rounded-[45px]">
       <div class="overflow-x-auto flex gap-x-10 case-studies">
         <div class="flex flex-shrink-0" v-for="(item, index) in testimonials" :key="index">
           <div class="flex flex-col gap-y-5">
             <div
-              class="border border-[#B9FF66] rounded-[45px] p-5 lg:p-10 max-w-[330px] md:max-w-[450px] lg:max-w-[606px] flex-shrink-0"
+              class="border border-[#B9FF66] rounded-[45px] p-5 lg:p-10 max-w-[300px] md:max-w-[450px] lg:max-w-[606px] flex-shrink-0"
             >
               <p class="text-base xl:text-lg font-normal text-white">
                 "We have been working with Positivus for the past year and have
